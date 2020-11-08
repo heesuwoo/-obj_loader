@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gl2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WGL_ARB_multisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl2.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_obj.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WGL_ARB_multisample.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Models\credits.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Content\Shaders\blinn_phong.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Content\Models\bricks_color_map.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Models\bricks_normal_map.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Shaders\normal_mapping.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Content\Models\cube.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{bcd8358f-3f31-4c2b-90b0-cf209c5300a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fa6eb525-88a1-4f79-b3fd-b9dead52eb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ea52ac42-fd9c-43fa-aa35-8180f3e9897b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{919300af-69e7-4138-8f8e-eb2fee72501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{c046472f-9e3c-43ba-8bad-9a84d48cf16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{fcdce84f-037c-4629-8f64-3eb4a10603ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLObjViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Content\Models\cube.obj">
+      <Filter>Resource Files\Models</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
